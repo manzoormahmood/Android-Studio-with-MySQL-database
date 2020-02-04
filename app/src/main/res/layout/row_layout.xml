@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="75dp">
+
+    <TextView
+        android:layout_height="match_parent"
+        android:layout_width="120dp"
+        android:id="@+id/tx_name"
+        android:layout_alignParentLeft="true"
+        android:text="Manz"
+        android:gravity="center"
+        android:textAppearance="?android:textAppearanceLarge"/>
+
+
+
+    <TextView
+        android:layout_height="match_parent"
+        android:layout_width="80dp"
+        android:id="@+id/tx_age"
+        android:layout_toRightOf="@+id/tx_name"
+        android:text="Manz"
+        android:gravity="center"
+        android:textAppearance="?android:textAppearanceLarge"/>
+
+    <TextView
+        android:layout_height="match_parent"
+        android:layout_width="80dp"
+        android:id="@+id/tx_height"
+        android:layout_toRightOf="@+id/tx_age"
+        android:text="Manz"
+        android:gravity="center"
+        android:textAppearance="?android:textAppearanceLarge"/>
+
+
+    <TextView
+        android:layout_height="match_parent"
+        android:layout_width="70dp"
+        android:id="@+id/tx_weight"
+        android:layout_toRightOf="@+id/tx_height"
+        android:text="Manz"
+        android:gravity="center"
+        android:textAppearance="?android:textAppearanceLarge"/>
+
+
+    <TextView
+        android:layout_height="match_parent"
+        android:layout_width="80dp"
+        android:id="@+id/tx_data"
+        android:layout_toRightOf="@+id/tx_weight"
+        android:text="Manz"
+        android:gravity="center"
+        android:textAppearance="?android:textAppearanceLarge"/>
+
+</RelativeLayout>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+
+    <Button
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:text="Add Data"
+        android:id="@+id/b3"
+        android:layout_marginTop="80dp"
+        android:onClick="addContact" />
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="No Network Found"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="30dp" />
+
+    <EditText
+        android:id="@+id/input_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="Input Registered User Name"
+        android:inputType="textPersonName" />
+
+
+
+    <Button
+        android:id="@+id/b1"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:text="Get Data"
+        android:layout_gravity="center_horizontal"
+        android:onClick="getJSON"
+        />
+<!--
+    <Button
+        android:id="@+id/b2"
+        android:layout_width="wrap_content"
+        android:layout_height="100dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:onClick="parseJSON"
+        android:text="Parse JSON" />
+-->
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="JSON appears here"
+        android:textAppearance="?android:textAppearanceLarge"
+        android:gravity="center"
+        android:layout_marginTop="20dp"/>
+
+
+
+
+</LinearLayout>
